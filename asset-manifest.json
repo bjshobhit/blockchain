@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/blockchain/static/css/main.e1ea70f1.css",
-    "main.js": "/blockchain/static/js/main.df7343d1.js",
+    "main.css": "/blockchain/static/css/main.916b5547.css",
+    "main.js": "/blockchain/static/js/main.ed38b8a4.js",
     "static/js/787.fb771931.chunk.js": "/blockchain/static/js/787.fb771931.chunk.js",
     "static/media/header-img.jpg": "/blockchain/static/media/header-img.c2066c243fe7b92a5bec.jpg",
     "static/media/color-sharp.png": "/blockchain/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -28,12 +28,12 @@
     "static/media/arrow2.svg": "/blockchain/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/blockchain/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/blockchain/static/media/nav-icon2.bb443a667df95e8dfec567781c568c23.svg",
-    "main.e1ea70f1.css.map": "/blockchain/static/css/main.e1ea70f1.css.map",
-    "main.df7343d1.js.map": "/blockchain/static/js/main.df7343d1.js.map",
+    "main.916b5547.css.map": "/blockchain/static/css/main.916b5547.css.map",
+    "main.ed38b8a4.js.map": "/blockchain/static/js/main.ed38b8a4.js.map",
     "787.fb771931.chunk.js.map": "/blockchain/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1ea70f1.css",
-    "static/js/main.df7343d1.js"
+    "static/css/main.916b5547.css",
+    "static/js/main.ed38b8a4.js"
   ]
 }
