@@ -50,23 +50,29 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h2>Why Us?</h2>
+                <p>We recognize that students invest tremendous effort into their academic projects, and their innovative ideas often remain confined within the walls of their institutions. Galaxy aims to change that by creating a platform where these ideas can shine.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Centralized knowledge</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Detect Plagiarism</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">Peer Learning</Nav.Link>
                     </Nav.Item>
+                    {/* <Nav.Item>
+                      <Nav.Link eventKey="fourth">Cross-University Collaboration</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="fifth">Student Showcase</Nav.Link>
+                    </Nav.Item> */}
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <Row>
+                      {/* <Row>
                         {
                           projects.map((project, index) => {
                             return (
@@ -77,13 +83,32 @@ export const Projects = () => {
                             )
                           })
                         }
-                      </Row>
+                      </Row> */}
+                      <p>Galaxy serves as a centralized repository of academic projects undertaken by students from universities and colleges across India. It collects, organizes, and stores project information, making it easily accessible to students, educators, and researchers.</p>
+                      <h3>Benefits:</h3>
+                      <ul>
+                        <li>Streamlines access to a vast wealth of academic knowledge.</li>
+                        <li>Simplifies project discovery and research for students.</li>
+                        <li>Facilitates cross-institutional collaboration and idea exchange.</li>
+                      </ul>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                      <p> Galaxy integrates robust plagiarism detection tools to ensure the integrity of research and promote originality among students. It scans projects for similarities with existing content to maintain academic honesty.</p>
+                      <h3>Benefits:</h3>
+                      <ul>
+                        <li>Fosters a culture of academic integrity.</li>
+                        <li>Encourages students to produce unique and innovative work.</li>
+                        <li>Assists educators in identifying potential plagiarism cases.</li>
+                      </ul>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Galaxy encourages peer learning by enabling students to explore and learn from the work of their fellow students. It allows users to access and review projects, providing valuable insights and inspiration.</p>
+                      <h3>Benefits:</h3>
+                      <ul>
+                        <li>Promotes collaboration and knowledge sharing among students.</li>
+                        <li>Enhances the learning experience by exposing students to diverse ideas.</li>
+                        <li>Fosters a supportive academic community.</li>
+                      </ul>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
