@@ -549,6 +549,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #fff;
+  font-size: xx-large;
 }
 .newsletter-bx {
   background: #FFFFFF;
